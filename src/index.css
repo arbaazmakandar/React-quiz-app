@@ -1,0 +1,9 @@
+body {
+  height: 100vh;
+  background-image: linear-gradient(lightblue, darkblue);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}

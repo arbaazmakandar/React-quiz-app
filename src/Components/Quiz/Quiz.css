@@ -1,0 +1,70 @@
+.container {
+  width: 640px;
+  margin: auto;
+  margin-top: 150px;
+  background: white;
+  color: #262626;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-radius: 10px;
+  padding: 40px 50px;
+}
+
+.container hr {
+  height: 2px;
+  border: none;
+  background: #707070;
+}
+
+.container h2 {
+  font-size: 27px;
+  font-weight: 500;
+}
+
+.container ul li {
+  border: 1px solid black;
+  padding: 15px;
+  margin: 8px;
+  border-radius: 10px;
+  cursor: pointer;
+  list-style: none;
+}
+
+.container button {
+  width: 200px;
+  height: 50px;
+  background: rgb(137, 137, 178);
+  margin: auto;
+  border-radius: 5px;
+  border: 1px solid rgb(147, 147, 190);
+  cursor: pointer;
+  color: white;
+}
+
+.container .index {
+  margin: auto;
+  font-size: 18px;
+}
+
+.correct {
+  border: 1px solid black;
+  color: white;
+  padding: 15px;
+  margin: 8px;
+  border-radius: 10px;
+  cursor: pointer;
+  list-style: none;
+  background: green;
+}
+
+.wrong {
+  border: 1px solid black;
+  color: white;
+  padding: 15px;
+  margin: 8px;
+  border-radius: 10px;
+  cursor: pointer;
+  list-style: none;
+  background: red;
+}
